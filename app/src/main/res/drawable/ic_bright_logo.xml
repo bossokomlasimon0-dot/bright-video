@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <!-- Outer rounded shield / circle -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M36,4C18.33,4 4,18.33 4,36s14.33,32 32,32 32,-14.33 32,-32S53.67,4 36,4z" />
+    <!-- Inner glowing ring / accent -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M36,10c14.36,0 26,11.64 26,26S50.36,62 36,62 10,50.36 10,36 21.64,10 36,10z" />
+    <!-- Dark contrast backdrop -->
+    <path
+        android:fillColor="#1E1B2E"
+        android:pathData="M36,14c12.15,0 22,9.85 22,22s-9.85,22 -22,22S14,48.15 14,36 23.85,14 36,14z" />
+    <!-- Bright Play Button Triangle -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M29,24l22,12 -22,12z" />
+</vector>
